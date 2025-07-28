@@ -60,18 +60,18 @@ The algorithm expects JSON files with the following structure:
 ```json
 {
     "keys": {
-        "n": 4,        // Number of roots provided
-        "k": 3         // Minimum roots required (degree = k - 1)
+        "n": 4,        
+        "k": 3        
     },
     "1": {
-        "base": "10",   // Base for decoding
-        "value": "4"    // Encoded value
+        "base": "10",   
+        "value": "4"    
     },
     "2": {
         "base": "2",
         "value": "111"
     }
-    // ... more roots
+    
 }
 ```
 
